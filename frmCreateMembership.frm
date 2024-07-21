@@ -17,9 +17,9 @@ Begin VB.Form frmCreateMembership
       Strikethrough   =   0   'False
    EndProperty
    LinkTopic       =   "Form1"
-   MDIChild        =   -1  'True
    ScaleHeight     =   6915
    ScaleWidth      =   9765
+   StartUpPosition =   2  'CenterScreen
    Begin MSAdodcLib.Adodc Adodc1 
       Height          =   375
       Left            =   6720
@@ -255,6 +255,7 @@ Begin VB.Form frmCreateMembership
       ForeColor       =   &H8000000E&
       Height          =   975
       Left            =   0
+      Locked          =   -1  'True
       MultiLine       =   -1  'True
       TabIndex        =   0
       Text            =   "frmCreateMembership.frx":0015

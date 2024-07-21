@@ -20,13 +20,14 @@ Begin VB.Form frmCreateFacility
    LinkTopic       =   "Form1"
    ScaleHeight     =   6915
    ScaleWidth      =   9765
-   StartUpPosition =   3  'Windows Default
+   StartUpPosition =   2  'CenterScreen
    Begin VB.TextBox Text3 
       Alignment       =   2  'Center
       BackColor       =   &H000000C0&
       ForeColor       =   &H8000000E&
       Height          =   975
       Left            =   0
+      Locked          =   -1  'True
       MultiLine       =   -1  'True
       TabIndex        =   5
       Text            =   "frmCreateFacility.frx":0000
@@ -241,3 +242,19 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
+Private Sub cmdCreate_Click()
+Dim msg As String
+msg = MsgBox("Record Inserted Successfully", vbInformation, "Record Addition Sucess :)")
+If msg = vbYes Then
+
+End If
+End Sub
+
+Private Sub cmdRemove_Click()
+Dim msg As String
+msg = MsgBox("Record deleted Successfully", vbInformation, "Deletion Sucess :)")
+If msg = vbYes Then
+
+End If
+End Sub

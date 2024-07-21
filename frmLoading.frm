@@ -1,6 +1,6 @@
 VERSION 5.00
 Begin VB.Form frmLoading 
-   BackColor       =   &H8000000A&
+   BackColor       =   &H80000002&
    Caption         =   "Loading..."
    ClientHeight    =   6915
    ClientLeft      =   120
@@ -30,6 +30,7 @@ Begin VB.Form frmLoading
       ForeColor       =   &H8000000E&
       Height          =   975
       Left            =   0
+      Locked          =   -1  'True
       MultiLine       =   -1  'True
       TabIndex        =   0
       Text            =   "frmLoading.frx":0000

@@ -26,6 +26,7 @@ Begin VB.Form frmLogin
       ForeColor       =   &H8000000E&
       Height          =   975
       Left            =   0
+      Locked          =   -1  'True
       MultiLine       =   -1  'True
       TabIndex        =   8
       Text            =   "frmLogin.frx":0000
