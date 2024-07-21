@@ -212,7 +212,7 @@ End If
 
 
 ctr = ctr + 1
-If ctr > 25 Then
+If ctr = 25 Then
 MDIForm1.Show
 Unload Me
 End If
