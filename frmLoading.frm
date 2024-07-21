@@ -183,6 +183,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Dim resetCounter As Single
+Dim ctr As Single
 
 Private Sub Form_Load()
 resetCounter = 0
@@ -209,6 +210,12 @@ square.BorderWidth = square.BorderWidth + 1
 squareSmall.BorderWidth = squareSmall.BorderWidth + 1
 End If
 
+
+ctr = ctr + 1
+If ctr > 25 Then
+MDIForm1.Show
+Unload Me
+End If
 
 
 '-----------------------------------------------

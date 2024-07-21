@@ -19,6 +19,11 @@ Begin VB.Form frmStart
    ScaleHeight     =   6915
    ScaleWidth      =   9765
    StartUpPosition =   3  'Windows Default
+   Begin VB.Timer Timer1 
+      Interval        =   10
+      Left            =   1200
+      Top             =   4800
+   End
    Begin VB.Label Label3 
       AutoSize        =   -1  'True
       BackColor       =   &H80000012&
@@ -84,6 +89,12 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-Private Sub Image1_Click()
+Dim ctr As Single
 
+Private Sub Timer1_Timer()
+ctr = ctr + 1
+If ctr > 100 Then
+frmLogin.Show
+Unload Me
+End If
 End Sub

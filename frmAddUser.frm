@@ -263,7 +263,7 @@ Begin VB.Form frmAddUser
          _ExtentX        =   5106
          _ExtentY        =   873
          _Version        =   393216
-         Format          =   134283265
+         Format          =   134742017
          CurrentDate     =   45494
       End
       Begin VB.Image Image3 

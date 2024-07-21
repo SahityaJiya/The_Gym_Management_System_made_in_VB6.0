@@ -18,19 +18,10 @@ Begin VB.Form frmAddMember
    LinkTopic       =   "Form1"
    ScaleHeight     =   8730
    ScaleWidth      =   15795
-   StartUpPosition =   3  'Windows Default
+   StartUpPosition =   2  'CenterScreen
    Begin VB.Frame Frame5 
       BackColor       =   &H8000000D&
       Caption         =   "Member_Details"
-      BeginProperty Font 
-         Name            =   "Sylfaen"
-         Size            =   14.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       ForeColor       =   &H8000000B&
       Height          =   8535
       Left            =   0
@@ -38,15 +29,6 @@ Begin VB.Form frmAddMember
       Top             =   120
       Width           =   8295
       Begin VB.TextBox Text5 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   495
          Left            =   2520
          TabIndex        =   46
@@ -54,15 +36,6 @@ Begin VB.Form frmAddMember
          Width           =   2535
       End
       Begin VB.TextBox Text4 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   495
          Left            =   2520
          TabIndex        =   44
@@ -70,15 +43,6 @@ Begin VB.Form frmAddMember
          Width           =   2535
       End
       Begin VB.TextBox Text29 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   525
          Left            =   4440
          TabIndex        =   14
@@ -86,15 +50,6 @@ Begin VB.Form frmAddMember
          Width           =   3375
       End
       Begin VB.TextBox Text30 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   525
          Left            =   6000
          TabIndex        =   13
@@ -102,15 +57,6 @@ Begin VB.Form frmAddMember
          Width           =   1815
       End
       Begin VB.TextBox Text31 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   525
          Left            =   360
          TabIndex        =   12
@@ -120,15 +66,6 @@ Begin VB.Form frmAddMember
       Begin VB.Frame Frame6 
          BackColor       =   &H8000000D&
          Caption         =   "Gender"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   975
          Left            =   360
@@ -138,15 +75,6 @@ Begin VB.Form frmAddMember
          Begin VB.OptionButton Option4 
             BackColor       =   &H8000000D&
             Caption         =   "Other"
-            BeginProperty Font 
-               Name            =   "Sylfaen"
-               Size            =   14.25
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
             ForeColor       =   &H8000000B&
             Height          =   615
             Left            =   3720
@@ -157,15 +85,6 @@ Begin VB.Form frmAddMember
          Begin VB.OptionButton Option2 
             BackColor       =   &H8000000D&
             Caption         =   "Female"
-            BeginProperty Font 
-               Name            =   "Sylfaen"
-               Size            =   14.25
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
             ForeColor       =   &H8000000B&
             Height          =   615
             Left            =   2040
@@ -176,15 +95,6 @@ Begin VB.Form frmAddMember
          Begin VB.OptionButton Option1 
             BackColor       =   &H8000000D&
             Caption         =   "Male"
-            BeginProperty Font 
-               Name            =   "Sylfaen"
-               Size            =   14.25
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
             ForeColor       =   &H8000000B&
             Height          =   495
             Left            =   600
@@ -194,15 +104,6 @@ Begin VB.Form frmAddMember
          End
       End
       Begin VB.TextBox Text32 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   525
          Left            =   2520
          TabIndex        =   7
@@ -210,15 +111,6 @@ Begin VB.Form frmAddMember
          Width           =   5295
       End
       Begin VB.TextBox Text33 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   1485
          Left            =   2520
          MultiLine       =   -1  'True
@@ -227,15 +119,6 @@ Begin VB.Form frmAddMember
          Width           =   5295
       End
       Begin VB.TextBox Text36 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   525
          Left            =   2520
          TabIndex        =   5
@@ -251,22 +134,13 @@ Begin VB.Form frmAddMember
          _ExtentX        =   4471
          _ExtentY        =   873
          _Version        =   393216
-         Format          =   134807553
+         Format          =   134742017
          CurrentDate     =   45494
       End
       Begin VB.Label Label9 
          AutoSize        =   -1  'True
          BackColor       =   &H8000000D&
          Caption         =   "Weight"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   360
@@ -278,15 +152,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H8000000D&
          Caption         =   "Whatsapp_Number"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   4800
@@ -298,15 +163,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H8000000D&
          Caption         =   "Age"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   6600
@@ -326,15 +182,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H8000000D&
          Caption         =   "Contact_Number"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   600
@@ -346,15 +193,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H8000000D&
          Caption         =   "Email"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   360
@@ -366,15 +204,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H8000000D&
          Caption         =   "Address"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   360
@@ -386,15 +215,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H8000000D&
          Caption         =   "Name"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000E&
          Height          =   375
          Left            =   360
@@ -406,15 +226,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H8000000D&
          Caption         =   "Date_Of_Birth"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   360
@@ -426,15 +237,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H8000000D&
          Caption         =   "Height"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   360
@@ -446,15 +248,6 @@ Begin VB.Form frmAddMember
    Begin VB.Frame Frame1 
       BackColor       =   &H00400040&
       Caption         =   "Gym Information"
-      BeginProperty Font 
-         Name            =   "Sylfaen"
-         Size            =   14.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       ForeColor       =   &H8000000B&
       Height          =   8535
       Left            =   8400
@@ -464,15 +257,6 @@ Begin VB.Form frmAddMember
       Begin VB.CommandButton cmdClear 
          BackColor       =   &H00FFFF00&
          Caption         =   "Print Bill"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   615
          Left            =   2640
          Style           =   1  'Graphical
@@ -483,15 +267,6 @@ Begin VB.Form frmAddMember
       Begin VB.CommandButton cmdExit 
          BackColor       =   &H000000FF&
          Caption         =   "Close"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   615
          Left            =   4920
          MaskColor       =   &H00FFFFFF&
@@ -503,15 +278,6 @@ Begin VB.Form frmAddMember
       Begin VB.CommandButton cmdLogin 
          BackColor       =   &H0000FF00&
          Caption         =   "Save"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   615
          Left            =   240
          Style           =   1  'Graphical
@@ -521,15 +287,6 @@ Begin VB.Form frmAddMember
       End
       Begin VB.ComboBox Combo5 
          BackColor       =   &H00400040&
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   495
          Left            =   3360
@@ -538,15 +295,6 @@ Begin VB.Form frmAddMember
          Width           =   2895
       End
       Begin VB.TextBox Text3 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   495
          Left            =   3360
          TabIndex        =   38
@@ -554,15 +302,6 @@ Begin VB.Form frmAddMember
          Width           =   2895
       End
       Begin VB.ComboBox Combo4 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   495
          Left            =   3360
          TabIndex        =   36
@@ -570,15 +309,6 @@ Begin VB.Form frmAddMember
          Width           =   2895
       End
       Begin VB.TextBox Text1 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   435
          Left            =   4080
          TabIndex        =   34
@@ -586,15 +316,6 @@ Begin VB.Form frmAddMember
          Width           =   2295
       End
       Begin VB.ComboBox Combo3 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   495
          Left            =   480
          TabIndex        =   32
@@ -604,15 +325,6 @@ Begin VB.Form frmAddMember
       Begin VB.Frame Frame2 
          BackColor       =   &H00400040&
          Caption         =   "Does the Customer wants Personal Trainer?"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   975
          Left            =   240
@@ -622,15 +334,6 @@ Begin VB.Form frmAddMember
          Begin VB.OptionButton Option8 
             BackColor       =   &H00400040&
             Caption         =   "Yes"
-            BeginProperty Font 
-               Name            =   "Sylfaen"
-               Size            =   14.25
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
             ForeColor       =   &H8000000B&
             Height          =   495
             Left            =   480
@@ -641,15 +344,6 @@ Begin VB.Form frmAddMember
          Begin VB.OptionButton Option6 
             BackColor       =   &H00400040&
             Caption         =   "No"
-            BeginProperty Font 
-               Name            =   "Sylfaen"
-               Size            =   14.25
-               Charset         =   0
-               Weight          =   400
-               Underline       =   0   'False
-               Italic          =   0   'False
-               Strikethrough   =   0   'False
-            EndProperty
             ForeColor       =   &H8000000B&
             Height          =   495
             Left            =   2520
@@ -659,15 +353,6 @@ Begin VB.Form frmAddMember
          End
       End
       Begin VB.ComboBox Combo1 
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          Height          =   495
          Left            =   3360
          TabIndex        =   27
@@ -683,20 +368,11 @@ Begin VB.Form frmAddMember
          _ExtentX        =   5318
          _ExtentY        =   873
          _Version        =   393216
-         Format          =   134807553
+         Format          =   134742017
          CurrentDate     =   45494
       End
       Begin VB.TextBox Text2 
          BackColor       =   &H00400040&
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   525
          Left            =   3360
@@ -713,22 +389,13 @@ Begin VB.Form frmAddMember
          _ExtentX        =   4048
          _ExtentY        =   873
          _Version        =   393216
-         Format          =   134807553
+         Format          =   134742017
          CurrentDate     =   45494
       End
       Begin VB.Label Label8 
          AutoSize        =   -1  'True
          BackColor       =   &H00400040&
          Caption         =   "Pending Money"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   480
@@ -740,15 +407,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H00400040&
          Caption         =   "Facility"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   360
@@ -760,15 +418,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H00400040&
          Caption         =   "Trainer_Charges"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   4200
@@ -780,15 +429,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H00400040&
          Caption         =   "Trainer_Information"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   720
@@ -800,15 +440,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackStyle       =   0  'Transparent
          Caption         =   "Membership_Plan"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   360
@@ -820,15 +451,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H00400040&
          Caption         =   "End Date"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   4680
@@ -840,15 +462,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H00400040&
          Caption         =   "Start Date"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   1200
@@ -860,15 +473,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H00400040&
          Caption         =   "Total_Amount"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   480
@@ -880,15 +484,6 @@ Begin VB.Form frmAddMember
          AutoSize        =   -1  'True
          BackColor       =   &H00400040&
          Caption         =   "Payment_Status"
-         BeginProperty Font 
-            Name            =   "Sylfaen"
-            Size            =   14.25
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
          ForeColor       =   &H8000000B&
          Height          =   375
          Left            =   480
@@ -911,14 +506,6 @@ Private Sub Image3_Click()
 
 End Sub
 
-Private Sub Label38_Click()
-
-End Sub
-
-Private Sub Label9_Click()
-
-End Sub
-
-Private Sub Text1_Change()
-
+Private Sub cmdExit_Click()
+Unload Me
 End Sub
