@@ -207,20 +207,20 @@ Private Sub Command3_Click()
 End Sub
 
 Private Sub cmdClear_Click()
-txtUserName.Text = ""
+
 txtUserName.Text = "Enter UserId Here"
 txtUserName.FontSize = 10
 txtUserName.ForeColor = vbBlue
 txtUserName.Alignment = 2
 
 
-txtPassword.Text = ""
 txtPassword.PasswordChar = ""
+txtPassword.Text = "Enter Password"
 txtPassword.FontSize = 10
 txtPassword.ForeColor = vbBlue
 txtPassword.Alignment = 2
 
-txtPassword.Text = "Enter Password"
+
 
 
 
@@ -238,9 +238,28 @@ End
 End If
 End Sub
 
+Private Sub cmdLogin_Click()
+Unload Me
+
+frmLoading.Show
+End Sub
+
 Private Sub Form_Load()
 isPassword = 0
 
+
+
+txtUserName.Text = "Enter UserId Here"
+txtUserName.FontSize = 10
+txtUserName.ForeColor = vbBlue
+txtUserName.Alignment = 2
+
+
+txtPassword.PasswordChar = ""
+txtPassword.Text = "Enter Password"
+txtPassword.FontSize = 10
+txtPassword.ForeColor = vbBlue
+txtPassword.Alignment = 2
 
 
 End Sub
