@@ -1,0 +1,2 @@
+frmLogin : Enter hit does't reset placeholder at txtPassword
+frmLogin : hitting showPassword (image) changes passwordchar: "*" for placeholder
