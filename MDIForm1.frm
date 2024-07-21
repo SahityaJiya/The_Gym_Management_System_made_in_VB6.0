@@ -29,12 +29,36 @@ Begin VB.MDIForm MDIForm1
    End
    Begin VB.Menu mnuMaster 
       Caption         =   "Master"
+      Begin VB.Menu mnuAddMembership 
+         Caption         =   "Add Membership"
+      End
+      Begin VB.Menu mnuAddFacility 
+         Caption         =   "Add Facility"
+      End
+      Begin VB.Menu mnuAddUser 
+         Caption         =   "Add User"
+      End
    End
    Begin VB.Menu mnuMember 
       Caption         =   "Member"
+      Begin VB.Menu mnuAddMember 
+         Caption         =   "Add Member"
+      End
+      Begin VB.Menu mnuUpdateDeleteMember 
+         Caption         =   "Update/Delete Member"
+      End
+      Begin VB.Menu mnuViewAllMembers 
+         Caption         =   "View All Members"
+      End
    End
    Begin VB.Menu mnuEnquiry 
       Caption         =   "Enquiry"
+      Begin VB.Menu mnuNewEnquiry 
+         Caption         =   "New Enquiry"
+      End
+      Begin VB.Menu mnuViewEnquiry 
+         Caption         =   "View Enquiry"
+      End
    End
    Begin VB.Menu mnuTransaction 
       Caption         =   "Transaction"
@@ -44,6 +68,15 @@ Begin VB.MDIForm MDIForm1
    End
    Begin VB.Menu mnuTrainer 
       Caption         =   "Trainer"
+      Begin VB.Menu mnuAddTrainer 
+         Caption         =   "Add Trainer"
+      End
+      Begin VB.Menu mnuUpdateDeleteTrainer 
+         Caption         =   "Update/ Delete Trainer"
+      End
+      Begin VB.Menu mnuClientsUnderTrainer 
+         Caption         =   "Clients Under Trainer"
+      End
    End
    Begin VB.Menu mnuReports 
       Caption         =   "Reports"
@@ -57,6 +90,9 @@ Begin VB.MDIForm MDIForm1
    Begin VB.Menu mnuAbout 
       Caption         =   "About"
    End
+   Begin VB.Menu mnuLogout 
+      Caption         =   "Logout"
+   End
    Begin VB.Menu mnuExit 
       Caption         =   "Exit"
    End
@@ -66,3 +102,19 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub mnuExit_Click()
+Dim msg As String
+msg = MsgBox("Do You Want to Close The Application", vbCritical + vbYesNo, "Warning!!!")
+If msg = vbYes Then
+End
+End If
+End Sub
+
+Private Sub mnuLogout_Click()
+Dim msg As String
+msg = MsgBox("Do You Want to Logout ?", vbInformation + vbYesNo, "Warning!!!")
+If msg = vbYes Then
+Unload Me
+frmLogin.Show
+End If
+End Sub

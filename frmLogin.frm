@@ -95,7 +95,7 @@ Begin VB.Form frmLogin
          PasswordChar    =   "*"
          TabIndex        =   5
          Top             =   1260
-         Width           =   2295
+         Width           =   2535
       End
       Begin VB.Image Image2 
          Height          =   1920
